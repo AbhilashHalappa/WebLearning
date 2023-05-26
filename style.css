@@ -333,6 +333,7 @@ header{
 }
 
 
+
 /* Last Footer*/
 
 .last-footer{
@@ -495,6 +496,10 @@ h1{
         margin-right: 5%;
         margin-left: 5%;
     }
+
+    .rev-one{
+        order:2;
+    }
 }
     
 
@@ -548,7 +553,9 @@ h1{
         flex-wrap: wrap;
     }
 
-    
+    .rev-one{
+    order:2;
+}
     
     }
     
@@ -585,6 +592,12 @@ h1{
             width:100%;
             height: auto;
         }
+
+        .rev-one{
+            order:2;
+        }
+
+        
 
         .last-footer{
 
