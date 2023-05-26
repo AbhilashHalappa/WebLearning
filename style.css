@@ -33,7 +33,7 @@
     margin-top:20px;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: auto;
     overflow:visible;
 }
 
@@ -97,14 +97,14 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-  flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
 
 /*Hero Content*/
 
 header{
-    padding: 50px;
+    padding: 50px 0;
 }
 
 .hero-item{
@@ -122,6 +122,8 @@ header{
     width:100%;
     min-width: 100px;
     flex:40%;
+    padding:0;
+    align-items: center;
 }
 
 .header-right{
@@ -129,16 +131,19 @@ header{
 }
 
 .header-left h1{
+    text-align: center;
     margin-top: 20px;
 }
 
 .header-left p{
+    text-align: center;
     margin-top: 20px;
 }
 
 .get-started-button{
     margin-top:50px;
     max-width: 200px;
+    
 }
 
 /*Compaines*/
@@ -434,7 +439,7 @@ h1{
     }
 
     .top-nav{
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
     
@@ -463,6 +468,10 @@ h1{
         padding: 20px;
     }
 
+    .product{
+        margin: 20px 5%;
+    }
+
     .review{
         justify-content: flex-start;
         gap:40px;
@@ -477,15 +486,21 @@ h1{
     }
 
     .last-footer{
-
+        margin: 0;
+        justify-content: center;
         flex-wrap: wrap;
+    }
+
+    .compaines{
+        margin-right: 5%;
+        margin-left: 5%;
     }
 }
     
 
 @media (max-width:600px){
     .top-nav{
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
     
