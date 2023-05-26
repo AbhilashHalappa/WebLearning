@@ -7,14 +7,15 @@
 }
 
 .container{
-  min-width:250px;
+    min-width: 250px;
+
     margin-left: 10%;
     margin-right: 10%;
     overflow: hidden;   
 }
 
 .top-banner{
-  min-width:250px;
+    min-width:250px;
     background-color: #e74694;
     background-image: url(./assets/asset\ 32.png);
     background-size: 25%;
@@ -81,16 +82,22 @@
 }
 
 .nav-bar{
-    min-width: 200px;
+    min-width: 250px;
     gap: 50px;
     justify-content: end;
 }
 
+
 .drop-down li{
     padding:10px;
-    
+    flex-wrap: wrap;
 }
 
+.sing-buttons{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
 
 /*Hero Content*/
@@ -419,11 +426,12 @@ h1{
 
 
 @media (max-width:400px){
-  
- .container{
-    margin-left: 5%;
-    margin-right: 5%;
-  }
+
+    .container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
     .top-nav{
         flex-direction: column;
         align-items: center;
@@ -433,7 +441,6 @@ h1{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-      gap:40px;
            
     }
     .top-banner{
