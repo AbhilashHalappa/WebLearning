@@ -7,12 +7,14 @@
 }
 
 .container{
+  min-width:250px;
     margin-left: 10%;
     margin-right: 10%;
     overflow: hidden;   
 }
 
 .top-banner{
+  min-width:250px;
     background-color: #e74694;
     background-image: url(./assets/asset\ 32.png);
     background-size: 25%;
@@ -417,6 +419,11 @@ h1{
 
 
 @media (max-width:400px){
+  
+ .container{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
     .top-nav{
         flex-direction: column;
         align-items: center;
